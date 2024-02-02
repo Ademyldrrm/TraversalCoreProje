@@ -173,3 +173,5 @@ C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Deb
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_TestimonialPartial\Default.cshtml.g.cs
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Destination\Index.cshtml.g.cs
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Destination\DestinationDetails.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_CommentList\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Comment\AddComment.cshtml.g.cs
