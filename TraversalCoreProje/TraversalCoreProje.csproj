@@ -23,14 +23,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
-    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
-    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
+    <Folder Include="Areas\Member\Data\" />
+    <Folder Include="wwwroot\userimages\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Member\Data\" />
-    <Folder Include="Areas\Member\Models\" />
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj" />
   </ItemGroup>
 
 </Project>
