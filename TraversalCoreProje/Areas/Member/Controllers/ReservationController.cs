@@ -2,32 +2,49 @@
 using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace TraversalCoreProje.Areas.Member.Controllers
 {
     [Area("Member")]
     public class ReservationController : Controller
     {
-
+        ReservationManager reservationManager = new ReservationManager(new EfReservationDal());
         private readonly IDestinationService _destinationService;
-
-        public ReservationController(IDestinationService destinationService)
+        private readonly UserManager<AppUser> _userManager;
+        public ReservationController(IDestinationService destinationService, UserManager<AppUser> userManager)
         {
             _destinationService = destinationService;
+            _userManager = userManager;
         }
 
         public IActionResult MyCurrentReservation()
         {
             return View();  
         }
+
+
+
         public IActionResult MyOldReservation()
         {
             return View();
         }
+
+
+
+        public async Task<IActionResult> MyApprovalReservation()
+        {
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+          var valuesList = reservationManager.GetListApprovalReservation(values.Id);
+            return View(valuesList);
+        }
+
+
         [HttpGet]
         public IActionResult NewReservation()
         {
@@ -45,7 +62,10 @@ namespace TraversalCoreProje.Areas.Member.Controllers
         [HttpPost]
         public IActionResult NewReservation(Reservation reservation)
         {
-            return View();
+            reservation.AppUserId = 5;
+            reservation.Status = "Onay Bekleniyor";
+            reservationManager.TInsert(reservation);
+            return RedirectToAction("MyCurrentReservation");
         }
     }
 }
