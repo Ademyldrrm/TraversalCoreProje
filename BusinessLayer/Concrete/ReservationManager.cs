@@ -18,20 +18,16 @@ namespace BusinessLayer.Concrete
             _reservationDal = reservationDal;
         }
 
-        public List<Reservation> GetListApprovalReservation(int id)
-        {
-            return _reservationDal.GetListByFilter(x => x.AppUserId == id);
-        }
 
         public void TDelete(Reservation t)
         {
-            
+
             _reservationDal.Delete(t);
         }
 
         public Reservation TGetById(int id)
         {
-           return _reservationDal.GetById(id);  
+            return _reservationDal.GetById(id);
         }
 
         public List<Reservation> TGetList()
@@ -39,14 +35,31 @@ namespace BusinessLayer.Concrete
             return _reservationDal.GetList();
         }
 
+        public List<Reservation> TGetListReservationByAccepted(int id)
+        {
+            return _reservationDal.GetListReservationByAccepted(id);
+        }
+
+        public List<Reservation> TGetListReservationByWithApproval(int id)
+        {
+            return _reservationDal.GetListReservationByWithApproval(id);
+
+
+        }
+
+        public List<Reservation> TGetListReservatonByPrevious(int id)
+        {
+            return _reservationDal.GetListReservatonByPrevious(id);
+        }
+
         public void TInsert(Reservation t)
         {
-            _reservationDal.Insert(t);
+            throw new NotImplementedException();
         }
 
         public void TUpdate(Reservation t)
         {
-           _reservationDal.Update(t);
+            throw new NotImplementedException();
         }
     }
-}
+    }

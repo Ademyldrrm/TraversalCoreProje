@@ -23,16 +23,20 @@ namespace TraversalCoreProje.Areas.Member.Controllers
             _userManager = userManager;
         }
 
-        public IActionResult MyCurrentReservation()
+        public async Task<IActionResult> MyCurrentReservation()
         {
-            return View();  
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            var valuesList = reservationManager.TGetListReservationByAccepted(values.Id);
+            return View(valuesList);
         }
 
 
 
-        public IActionResult MyOldReservation()
+        public async Task< IActionResult> MyOldReservation()
         {
-            return View();
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            var valuesList = reservationManager.TGetListReservatonByPrevious(values.Id);
+            return View(valuesList);
         }
 
 
@@ -40,7 +44,7 @@ namespace TraversalCoreProje.Areas.Member.Controllers
         public async Task<IActionResult> MyApprovalReservation()
         {
             var values = await _userManager.FindByNameAsync(User.Identity.Name);
-          var valuesList = reservationManager.GetListApprovalReservation(values.Id);
+            var valuesList = reservationManager.TGetListReservationByWithApproval(values.Id);
             return View(valuesList);
         }
 
