@@ -200,3 +200,11 @@ C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Deb
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\MyApprovalReservation.cshtml.g.cs
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Dashboard\Index.cshtml.g.cs
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_ProfileInformationPartial\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_GuideListPartial\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_PlatformSettingsPartial\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Destination\Index.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Destination\AddDestination.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Destination\UpdateDestination.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Admin\PartialHeader.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Admin\PartialAppBrandDemo.cshtml.g.cs
