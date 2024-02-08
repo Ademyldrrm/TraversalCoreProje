@@ -12,10 +12,7 @@ using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 using TraversalCoreProje.Models;
 
 namespace TraversalCoreProje
@@ -36,8 +33,15 @@ namespace TraversalCoreProje
             services.AddIdentity<AppUser,AppRole>().AddEntityFrameworkStores<Context>
                 ().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
             services.AddControllersWithViews();
+
             services.AddScoped<IDestinationService, DestinationManager>();
             services.AddScoped<IDestinationDal,EfDestinationDal>();
+
+            services.AddScoped<ICommentService, CommentManager>();
+            services.AddScoped<ICommentDal, EfCommentDal>();
+
+            services.AddScoped<IAppUserService, AppUserManager>();
+            services.AddScoped<IAppUserDal, EfAppUserDal>();
 
             services.AddMvc(config =>
             {
