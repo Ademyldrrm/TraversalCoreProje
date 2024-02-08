@@ -54,12 +54,12 @@ namespace BusinessLayer.Concrete
 
         public void TInsert(Reservation t)
         {
-            throw new NotImplementedException();
+            _reservationDal.Insert(t);
         }
 
         public void TUpdate(Reservation t)
         {
-            throw new NotImplementedException();
+           _reservationDal.Update(t);
         }
     }
     }
