@@ -12,7 +12,11 @@ namespace BusinessLayer.ValidationRules
     {
         public GuideValidator()
         {
-            
+            RuleFor(x => x.NameSurname).NotEmpty().WithMessage("Lütfen rehber adını giriniz");
+            RuleFor(x => x.Description).NotEmpty().WithMessage("Lütfen rehber açıklamasını giriniz");
+            RuleFor(x => x.Image).NotEmpty().WithMessage("Lütfen rehber görselini giriniz");
+            RuleFor(x => x.NameSurname).MaximumLength(30).WithMessage("lütfen 30 karakterden daha kısa bir isim giriniz");
+            RuleFor(x => x.NameSurname).MinimumLength(8).WithMessage("lütfen 8 karakterden daha uzun bir isim giriniz");
         }
     }
 }
