@@ -34,5 +34,23 @@ namespace TraversalCoreProje.Areas.Admin.Controllers
             return View(values);
 
         }
+        public IActionResult GetById(int DestinationID)
+        {
+            var values = _destinationService.TGetById(DestinationID);
+            var jsonValues = JsonConvert.SerializeObject(values);
+            return Json(jsonValues);
+        }
+        public IActionResult DeleteCity(int id)
+        {
+            var values = _destinationService.TGetById(id);
+            _destinationService.TDelete(values);
+            return NoContent();
+        }
+        public IActionResult UpdateCity(Destination destination)
+        {
+            _destinationService.TUpdate(destination);
+            var v = JsonConvert.SerializeObject(destination);
+            return Json(v);
+        }
     }
 }
