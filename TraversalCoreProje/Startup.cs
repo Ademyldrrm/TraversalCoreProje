@@ -51,7 +51,7 @@ namespace TraversalCoreProje
             services.ContainerDependencies();//Servis managererlerin configurasyonlarýný burada çaðýrýyoruz
             services.AddAutoMapper(typeof(Startup));//AutoMapper
 
-           
+            services.AddHttpClient();
 
             services.AddControllersWithViews().AddFluentValidation();
 
