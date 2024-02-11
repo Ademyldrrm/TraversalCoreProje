@@ -1,10 +1,14 @@
 using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
 using BusinessLayer.Container;
+using BusinessLayer.ValidationRules;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using DtoLayer.Dtos.Announcement;
 using EntityLayer.Concrete;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -45,7 +49,11 @@ namespace TraversalCoreProje
 
 
             services.ContainerDependencies();//Servis managererlerin configurasyonlarýný burada çaðýrýyoruz
+            services.AddAutoMapper(typeof(Startup));//AutoMapper
 
+           
+
+            services.AddControllersWithViews().AddFluentValidation();
 
             services.AddControllersWithViews();
 

@@ -2462,6 +2462,16 @@
           "bin/placeholder/DataAccessLayer.dll": {}
         }
       },
+      "DtoLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DtoLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DtoLayer.dll": {}
+        }
+      },
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -7487,6 +7497,11 @@
       "path": "../DataAccessLayer/DataAccessLayer.csproj",
       "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
     },
+    "DtoLayer/1.0.0": {
+      "type": "project",
+      "path": "../DtoLayer/DtoLayer.csproj",
+      "msbuildProject": "../DtoLayer/DtoLayer.csproj"
+    },
     "EntityLayer/1.0.0": {
       "type": "project",
       "path": "../EntityLayer/EntityLayer.csproj",
@@ -7496,6 +7511,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "DataAccessLayer >= 1.0.0",
+      "DtoLayer >= 1.0.0",
       "EPPlus >= 7.0.8",
       "EntityLayer >= 1.0.0",
       "FluentValidation >= 11.9.0",
@@ -7543,6 +7559,9 @@
           "projectReferences": {
             "C:\\Users\\AdemYildirim\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj": {
               "projectPath": "C:\\Users\\AdemYildirim\\source\\repos\\TraversalCoreProje\\DataAccessLayer\\DataAccessLayer.csproj"
+            },
+            "C:\\Users\\AdemYildirim\\source\\repos\\TraversalCoreProje\\DtoLayer\\DtoLayer.csproj": {
+              "projectPath": "C:\\Users\\AdemYildirim\\source\\repos\\TraversalCoreProje\\DtoLayer\\DtoLayer.csproj"
             },
             "C:\\Users\\AdemYildirim\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj": {
               "projectPath": "C:\\Users\\AdemYildirim\\source\\repos\\TraversalCoreProje\\EntityLayer\\EntityLayer.csproj"

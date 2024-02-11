@@ -1,0 +1,12 @@
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\bin\Debug\net5.0\DtoLayer.deps.json
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\bin\Debug\net5.0\DtoLayer.dll
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\bin\Debug\net5.0\DtoLayer.pdb
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\obj\Debug\net5.0\DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\obj\Debug\net5.0\DtoLayer.AssemblyInfoInputs.cache
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\obj\Debug\net5.0\DtoLayer.AssemblyInfo.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\obj\Debug\net5.0\DtoLayer.csproj.CoreCompileInputs.cache
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\obj\Debug\net5.0\DtoLayer.sourcelink.json
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\obj\Debug\net5.0\DtoLayer.dll
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\obj\Debug\net5.0\refint\DtoLayer.dll
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\obj\Debug\net5.0\DtoLayer.pdb
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\DtoLayer\obj\Debug\net5.0\ref\DtoLayer.dll

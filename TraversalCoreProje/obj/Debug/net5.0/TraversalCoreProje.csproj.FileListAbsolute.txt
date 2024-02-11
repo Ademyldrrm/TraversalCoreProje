@@ -265,3 +265,14 @@ C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Deb
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Mail\SendMail.cshtml.g.cs
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\City\Index.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\DtoLayer.dll
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\DtoLayer.pdb
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\ContactUs\Index.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Announcement\Index.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Announcement\AddAnnouncement.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Announcement\UpdateAnnouncement.cshtml.g.cs

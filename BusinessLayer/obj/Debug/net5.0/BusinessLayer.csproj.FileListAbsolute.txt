@@ -19,3 +19,5 @@ C:\Users\AdemYildirim\source\repos\TraversalCoreProje\BusinessLayer\obj\Debug\ne
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\BusinessLayer\obj\Debug\net5.0\BusinessLayer.genruntimeconfig.cache
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\BusinessLayer\obj\Debug\net5.0\BusinessLayer.sourcelink.json
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\BusinessLayer\bin\Debug\net5.0\DtoLayer.dll
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\BusinessLayer\bin\Debug\net5.0\DtoLayer.pdb
