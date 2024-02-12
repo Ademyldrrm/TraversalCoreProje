@@ -1,14 +1,9 @@
-using BusinessLayer.Abstract;
-using BusinessLayer.Concrete;
+
 using BusinessLayer.Container;
-using BusinessLayer.ValidationRules;
-using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
-using DataAccessLayer.EntityFramework;
-using DtoLayer.Dtos.Announcement;
 using EntityLayer.Concrete;
-using FluentValidation;
 using FluentValidation.AspNetCore;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -41,6 +36,7 @@ namespace TraversalCoreProje
             services.AddScoped<CreateDestinationCommandHandler>();
             services.AddScoped<RemoveDestinationCommandHandler>();
             services.AddScoped<UpdateDestinationCommandHandler>();
+            services.AddMediatR(typeof(Startup));
 
             services.AddLogging(x =>
             {

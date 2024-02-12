@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b9v9nt5NMwyQtpeCTbnAHzRCBZoVonY8y2JQaYP7kFLctUNfqWyCEHOr2ssmSccphlY06jKwd2h68GJFvXQ+Dg==",
+  "dgSpecHash": "mfCi/NAiVoWyQv4fNPaPuF5cXK/wB8A0iUxffZlWsM9DmH78TmqKuUePJN2py/nLTcahxpoafhwTTrU0PIikIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\AdemYildirim\\source\\repos\\TraversalCoreProje\\TraversalCoreProje\\TraversalCoreProje.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,9 @@
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\irony.netcore\\1.0.11\\irony.netcore.1.0.11.nupkg.sha512",
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\itextsharp.lgplv2.core\\3.4.15\\itextsharp.lgplv2.core.3.4.15.nupkg.sha512",
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\mailkit\\4.3.0\\mailkit.4.3.0.nupkg.sha512",
+    "C:\\Users\\AdemYildirim\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\AdemYildirim\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\AdemYildirim\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
@@ -66,7 +69,7 @@
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\3.1.32\\microsoft.extensions.configuration.fileextensions.3.1.32.nupkg.sha512",
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\microsoft.extensions.configuration.json\\3.1.32\\microsoft.extensions.configuration.json.3.1.32.nupkg.sha512",
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
-    "C:\\Users\\AdemYildirim\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\AdemYildirim\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.32\\microsoft.extensions.fileproviders.abstractions.3.1.32.nupkg.sha512",
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.32\\microsoft.extensions.fileproviders.physical.3.1.32.nupkg.sha512",
     "C:\\Users\\AdemYildirim\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.32\\microsoft.extensions.filesystemglobbing.3.1.32.nupkg.sha512",
