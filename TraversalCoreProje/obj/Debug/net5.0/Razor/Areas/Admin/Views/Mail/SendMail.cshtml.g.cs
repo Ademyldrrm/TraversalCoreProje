@@ -47,8 +47,22 @@ using DtoLayer.Dtos.Announcement;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\_ViewImports.cshtml"
+using TraversalCoreProje.CQRS.Results.DestinationResult;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\_ViewImports.cshtml"
+using TraversalCoreProje.CQRS.Commands.DestinationCommands;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"e55de81dd1e989e323236a3189d724e0fb131d60ca422943dfb9bde2b1318d61", @"/Areas/Admin/Views/Mail/SendMail.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"54bcceedb323574a0cdadd9c43ae8d1173783cb8c0ecf3956aba85439d1d53ef", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"f121fe79fd224845e2de38b44ed18b6a76f5a7c7062f14d9b98cd50928bf1dda", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_Mail_SendMail : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<TraversalCoreProje.Models.MailReguest>
     #nullable disable
@@ -95,7 +109,7 @@ using DtoLayer.Dtos.Announcement;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<h1>Yeni Mail Gönderme Sayfası</h1>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e55de81dd1e989e323236a3189d724e0fb131d60ca422943dfb9bde2b1318d616510", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e55de81dd1e989e323236a3189d724e0fb131d60ca422943dfb9bde2b1318d617011", async() => {
                 WriteLiteral("\r\n\r\n    <div class=\"form-group\">\r\n        ");
 #nullable restore
 #line 11 "C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\Areas\Admin\Views\Mail\SendMail.cshtml"
@@ -105,7 +119,7 @@ using DtoLayer.Dtos.Announcement;
 #line hidden
 #nullable disable
                 WriteLiteral("\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e55de81dd1e989e323236a3189d724e0fb131d60ca422943dfb9bde2b1318d617122", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e55de81dd1e989e323236a3189d724e0fb131d60ca422943dfb9bde2b1318d617623", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -137,7 +151,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
 #line hidden
 #nullable disable
                 WriteLiteral("\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e55de81dd1e989e323236a3189d724e0fb131d60ca422943dfb9bde2b1318d619325", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e55de81dd1e989e323236a3189d724e0fb131d60ca422943dfb9bde2b1318d619826", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -169,7 +183,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
 #line hidden
 #nullable disable
                 WriteLiteral("\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("textarea", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e55de81dd1e989e323236a3189d724e0fb131d60ca422943dfb9bde2b1318d6111524", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("textarea", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e55de81dd1e989e323236a3189d724e0fb131d60ca422943dfb9bde2b1318d6112025", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_TextAreaTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.TextAreaTagHelper>();
