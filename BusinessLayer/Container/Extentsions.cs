@@ -1,7 +1,10 @@
 ﻿using BusinessLayer.Abstract;
+using BusinessLayer.Abstract.Abstract;
 using BusinessLayer.Concrete;
+using BusinessLayer.Concrete.UnitOfConcrete;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.EntityFramework;
+using DataAccessLayer.UnitOfWork;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -38,6 +41,10 @@ namespace BusinessLayer.Container
 
             services.AddScoped<IAnnouncementDal, EfAnnouncementDal>();
             services.AddScoped<IAnnouncementService, AnnouncementManager>();
+
+            services.AddScoped<IAccountService, AccountManager>();
+            services.AddScoped<IAccountDal, EfAccountDal>();
+            services.AddScoped<IUnitOfWorkDal, UnitOfWorkDal>();
 
         }
     }
