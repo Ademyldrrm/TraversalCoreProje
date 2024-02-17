@@ -13,11 +13,11 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfDestinationDal : GenericRepository<Destination>, IDestinationDal
     {
-        public List<Destination> GetDestinationWithGuide(int id)
+        public Destination GetDestinationWithGuide(int id)
         {
             using (var context = new Context())
             {
-                var values = context.Destinations.Where(x => x.DestinationId == id).Include(x=>x.Guide).ToList();
+                var values = context.Destinations.Where(x => x.DestinationId == id).Include(x=>x.Guide).FirstOrDefault();
                 return values;
             }
         }
