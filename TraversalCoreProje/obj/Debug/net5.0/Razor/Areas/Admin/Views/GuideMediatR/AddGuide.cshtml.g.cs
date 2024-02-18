@@ -61,8 +61,8 @@ using TraversalCoreProje.CQRS.Commands.DestinationCommands;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"85753d9dc58ca76e7fa169839360a5362ef18c2e968c73199e76b7b9e2f5b0eb", @"/Areas/Admin/Views/GuideMediatR/AddGuide.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"52d8df8437a46379581910ee0bc86a75d753e0e5b17f1a7278d2fd868a00bc95", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"85753d9dc58ca76e7fa169839360a5362ef18c2e968c73199e76b7b9e2f5b0eb", @"/Areas/Admin/Views/GuideMediatR/AddGuide.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"52d8df8437a46379581910ee0bc86a75d753e0e5b17f1a7278d2fd868a00bc95", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_GuideMediatR_AddGuide : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<TraversalCoreProje.MediatR.Commands.CreateGuideCommand>
     #nullable disable

@@ -61,8 +61,8 @@ using TraversalCoreProje.CQRS.Commands.DestinationCommands;
 #line default
 #line hidden
 #nullable disable
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"5aa0bef470560c754902625d7870185f8ef84390f907c4142ddf2987fb90a66a", @"/Areas/Admin/Views/GuideMediatR/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA256", @"52d8df8437a46379581910ee0bc86a75d753e0e5b17f1a7278d2fd868a00bc95", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"5aa0bef470560c754902625d7870185f8ef84390f907c4142ddf2987fb90a66a", @"/Areas/Admin/Views/GuideMediatR/Index.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"52d8df8437a46379581910ee0bc86a75d753e0e5b17f1a7278d2fd868a00bc95", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Admin_Views_GuideMediatR_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<TraversalCoreProje.MediatR.Results.GetAllGuideQueryResult>>
     #nullable disable
