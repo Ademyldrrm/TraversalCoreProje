@@ -3,12 +3,14 @@
     "Name": "New Profile",
     "Projects": [
       {
-        "Name": "TraversalCoreProjeSignalRApi\\TraversalCoreProjeSignalRApi.csproj",
-        "Action": "Start"
+        "Name": "TraversalCoreProje.SignalR.Consume\\TraversalCoreProje.SignalR.Consume.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
       },
       {
-        "Name": "TraversalCoreProje.SignalR.Consume\\TraversalCoreProje.SignalR.Consume.csproj",
-        "Action": "Start"
+        "Name": "TraversalCoreProje.SignalRApiForSql\\TraversalCoreProje.SignalRApiForSql.csproj",
+        "Action": "Start",
+        "DebugTarget": ""
       }
     ]
   }

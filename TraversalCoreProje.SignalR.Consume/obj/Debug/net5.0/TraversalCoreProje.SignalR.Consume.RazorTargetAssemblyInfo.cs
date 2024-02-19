@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("TraversalCoreProje.SignalR.Consume")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88ff9c66511f9a4a6c4d3bd676a59b55eae23d11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8535b17004fd89915268da6757dc04c73b53856c")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TraversalCoreProje.SignalR.Consume.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
