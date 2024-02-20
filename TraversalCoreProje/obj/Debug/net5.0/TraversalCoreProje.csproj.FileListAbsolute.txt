@@ -299,3 +299,7 @@ C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Deb
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Role\UpdateRole.cshtml.g.cs
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Role\UserList.cshtml.g.cs
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Admin\Views\Role\AsssignRole.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_LastDestinationComponent\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\_MemberLayout.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\Deneme.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Dashboard\MemberDashboard.cshtml.g.cs
