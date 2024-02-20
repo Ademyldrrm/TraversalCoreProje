@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TraversalCoreProje.SignalRApiForSql")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7baac0a3cbc6e6c0bdcdf24ba8bf0a2e6596d3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+252e8d3e96885e32069f374c28ff15b84c3ec741")]
 [assembly: System.Reflection.AssemblyProductAttribute("TraversalCoreProje.SignalRApiForSql")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TraversalCoreProje.SignalRApiForSql")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
