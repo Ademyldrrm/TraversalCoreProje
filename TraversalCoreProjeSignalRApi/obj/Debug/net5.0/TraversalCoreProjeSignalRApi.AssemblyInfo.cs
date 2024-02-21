@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TraversalCoreProjeSignalRApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c27c1bb281b6277045b7e065bb845427cf17d588")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2a376d02f872bb745c1e7ba2553d11b08bd6955")]
 [assembly: System.Reflection.AssemblyProductAttribute("TraversalCoreProjeSignalRApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TraversalCoreProjeSignalRApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

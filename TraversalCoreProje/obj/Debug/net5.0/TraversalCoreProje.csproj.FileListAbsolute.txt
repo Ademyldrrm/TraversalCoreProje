@@ -303,3 +303,13 @@ C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Deb
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\_MemberLayout.cshtml.g.cs
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Reservation\Deneme.cshtml.g.cs
 C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\Dashboard\MemberDashboard.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_MemberStatisticPartial\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Areas\Member\Views\LastDestination\Index.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_MemberLayoutHead\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_MemberLayoutLanguages\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_MemberLayoutNavbar\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_MemberLayoutSearch\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_MemberLayoutFooter\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_MemberLayoutHeaderContent\Default.cshtml.g.cs
+C:\Users\AdemYildirim\source\repos\TraversalCoreProje\TraversalCoreProje\obj\Debug\net5.0\Razor\Views\Shared\Components\_MemberLayoutSideBar\Default.cshtml.g.cs

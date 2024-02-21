@@ -28,6 +28,7 @@ namespace TraversalCoreProje.Areas.Member.Controllers
             userEditViewModel.surname = values.SurName;
             userEditViewModel.phoneNumber = values.PhoneNumber;
             userEditViewModel.mail = values.Email;
+            userEditViewModel.imageUrl = values.ImageUrl;
             return View(userEditViewModel);
         }
         [HttpPost]
